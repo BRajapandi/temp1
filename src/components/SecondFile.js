@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../images/vector.jpg'
-
+import offer from '../images/offer.png'
 function SecondFile() {
     
   navigator.serviceWorker.register("sw.js");
@@ -8,7 +8,13 @@ function SecondFile() {
         Notification.requestPermission(function(result) {
         if (result === 'granted') {
             navigator.serviceWorker.ready.then(function(registration) {
-            registration.showNotification('Notification with ServiceWorker');
+            registration.showNotification('Notification with ServiceWorker', {
+                    body: "Buzz! Buzz!",
+                    icon: logo,
+                    vibrate: [200, 100, 200, 100, 200, 100, 200],
+                    tag: "vibration-sample",
+                    image:offer
+                    });
             });
         }
         })
