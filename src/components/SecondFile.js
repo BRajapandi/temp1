@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../images/vector.jpg'
-import offer from '../images/offer.png'
+import offer from '../images/offer.jpg'
 import vector from '../images/vector2.jpg'
 function SecondFile() {
     
