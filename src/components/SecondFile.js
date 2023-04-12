@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../images/vector.jpg'
-import offer from '../images/vector.jpg'
+import offer from '../images/offer.png'
 import vector from '../images/vector2.jpg'
 function SecondFile() {
     
@@ -14,8 +14,7 @@ function SecondFile() {
                     icon: vector,
                     vibrate: [200, 100, 200, 100, 200, 100, 200],
                     tag: "vibration-sample",
-                    image:offer,
-                    badge:vector
+                    image:offer
                     });
             });
         }
