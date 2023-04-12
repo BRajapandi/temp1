@@ -11,7 +11,7 @@ function SecondFile() {
             navigator.serviceWorker.ready.then(function(registration) {
             registration.showNotification('Sri Srinivasa Medicals', {
                     body: "Get X Buy Y With Discount",
-                    icon: logo,
+                    icon: vector,
                     vibrate: [200, 100, 200, 100, 200, 100, 200],
                     tag: "vibration-sample",
                     image:offer,
