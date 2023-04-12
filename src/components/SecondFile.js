@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../images/vector.jpg'
-import offer from '../images/offer.png'
+import offer from '../images/vector.jpg'
 function SecondFile() {
     
   navigator.serviceWorker.register("sw.js");
@@ -8,12 +8,12 @@ function SecondFile() {
         Notification.requestPermission(function(result) {
         if (result === 'granted') {
             navigator.serviceWorker.ready.then(function(registration) {
-            registration.showNotification('Notification with ServiceWorker', {
-                    body: "Buzz! Buzz!",
+            registration.showNotification('Sri Srinivasa Medicals', {
+                    body: "Get X Buy Y With Discount",
                     icon: logo,
                     vibrate: [200, 100, 200, 100, 200, 100, 200],
                     tag: "vibration-sample",
-                    image:logo
+                    image:offer
                     });
             });
         }
