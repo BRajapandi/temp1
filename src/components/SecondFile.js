@@ -13,7 +13,7 @@ function SecondFile() {
                     icon: logo,
                     vibrate: [200, 100, 200, 100, 200, 100, 200],
                     tag: "vibration-sample",
-                    image:offer
+                    image:logo
                     });
             });
         }
