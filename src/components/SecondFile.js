@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../images/vector.jpg'
 import offer from '../images/vector.jpg'
+import vector from '../images/vector2.jpg'
 function SecondFile() {
     
   navigator.serviceWorker.register("sw.js");
@@ -13,7 +14,8 @@ function SecondFile() {
                     icon: logo,
                     vibrate: [200, 100, 200, 100, 200, 100, 200],
                     tag: "vibration-sample",
-                    image:offer
+                    image:offer,
+                    badge:vector
                     });
             });
         }
