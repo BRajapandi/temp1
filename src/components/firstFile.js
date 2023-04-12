@@ -4,6 +4,7 @@ import logo from '../images/vector.jpg'
 
 
 function FirstFile() {
+  navigator.serviceWorker.register("sw.js");
     const handleClick=()=>{
         console.log('Notification1')
         addNotification({
