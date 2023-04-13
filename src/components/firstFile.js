@@ -1,6 +1,6 @@
 import React from 'react'
 import addNotification from 'react-push-notification'
-import logo from '../images/vector.jpg'
+import logo from '../images/icon.png'
 
 
 function FirstFile() {
